@@ -72,5 +72,5 @@ in {
     src = sources.plover-uinput;
     buildInputs = [plover];
     propagatedBuildInputs = [evdev xkbcommon];
-  }
+  };
 }
