@@ -71,6 +71,6 @@ in {
     version = "master";
     src = sources.plover-uinput;
     buildInputs = [plover];
-    propagatedBuildInputs = [evdev, xkbcommon];
+    propagatedBuildInputs = [evdev xkbcommon];
   }
 }
