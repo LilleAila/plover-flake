@@ -101,11 +101,11 @@
     "plover-uinput": {
       "flake": false,
       "locked": {
-        "lastModified": 1712761095,
-        "narHash": "sha256-taiMb2KJtk3Q45UjHuPqhMdf+ape10W2hDnBRk39pJI=",
+        "lastModified": 1712761174,
+        "narHash": "sha256-6j33ZXtUVEsIYAR4/wP9EZGQbTUgisu1zFKDgWbx19s=",
         "owner": "LilleAila",
         "repo": "plover-uinput",
-        "rev": "269d080de97f9dac146761b958206510f05dd1c2",
+        "rev": "33f3c7ace919238a8c3b313e30e43bcc8d627d03",
         "type": "github"
       },
       "original": {
