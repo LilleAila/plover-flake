@@ -58,7 +58,11 @@
             jq
           ];
         };
-        packages.default = self.packages.${system}.plover;
+        packages.default = self.packages.${system}.plover.with-plugins (
+          ps: with ps; [
+            plover_uinput
+          ]
+        );
         packages.plover = let
           pyqt5 = pkgs.python3Packages.pyqt5.override {withMultimedia = true;};
           plover = pkgs.python3Packages.callPackage ./plover.nix {inherit sources pyqt5;};
