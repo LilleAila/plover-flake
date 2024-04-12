@@ -57,20 +57,4 @@ in {
     propagatedBuildInputs = [dulwich odfpy pyparsing spylls obsws-python];
     doCheck = false;
   };
-  # This plugin adds wayland output support through plover-output-dotool
-  # To use this plugin, you need to have `dotool` installed, and add this udev rule:
-  # KERNEL=="uinput", GROUP="input", MODE="0660", OPTIONS+="static_node=uinput"
-  plover_output_dotool = buildPythonPackage rec {
-    pname = "plover-output-dotool";
-    version = "master";
-    src = sources.plover-output-dotool;
-    buildInputs = [plover];
-  };
-  plover_uinput = buildPythonPackage rec {
-    pname = "plover-uinput";
-    version = "master";
-    src = sources.plover-uinput;
-    buildInputs = [plover];
-    propagatedBuildInputs = [evdev xkbcommon];
-  };
 }

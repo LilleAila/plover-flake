@@ -60,7 +60,7 @@
         };
         packages.default = self.packages.${system}.plover.with-plugins (
           ps: with ps; [
-            plover_uinput
+            plover-uinput
           ]
         );
         packages.plover = let
