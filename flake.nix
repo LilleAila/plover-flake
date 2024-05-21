@@ -59,6 +59,7 @@
         packages.testing = self.packages.${system}.plover.with-plugins (
           ps: with ps; [
             plover_uinput
+            plover-lapwing-aio
           ]
         );
         packages.default = self.packages.${system}.plover;

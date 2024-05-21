@@ -22,7 +22,7 @@
     value = p;
   };
   basicPlugins = final: prev: builtins.listToAttrs (map (p: pluginToAttr (makePloverPlugin p)) plugins);
-  overrides = callPackage ./overrides.nix {};
+  overrides = callPackage ./overrides.nix {inherit plover sources;};
 
   initialPackages = self: callPackage ./extra-plugins.nix {inherit plover sources;};
 
