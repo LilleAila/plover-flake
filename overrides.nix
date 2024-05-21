@@ -14,7 +14,7 @@ self: super: {
   plover_dict_commands = super.plover_dict_commands.overrideAttrs (old: {
     propagatedBuildInputs = [ setuptools-scm ];
   });
-  plover-uinput = super.plover-uinput.overrideAttrs (old: {
+  plover_uinput = super.plover_uinput.overrideAttrs (old: {
     propagatedBuildInputs = [ evdev xkbcommon ];
   });
 }

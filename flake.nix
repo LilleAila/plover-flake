@@ -1,7 +1,5 @@
 {
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-  inputs.flake-utils.url = "github:numtide/flake-utils";
-  inputs.plover_plugins_registry = {
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable"; inputs.flake-utils.url = "github:numtide/flake-utils"; inputs.plover_plugins_registry = {
     url = "github:openstenoproject/plover_plugins_registry";
     flake = false;
   };
@@ -58,11 +56,11 @@
             jq
           ];
         };
-        # packages.default = self.packages.${system}.plover.with-plugins (
-        #   ps: with ps; [
-        #     plover-uinput
-        #   ]
-        # );
+        packages.testing = self.packages.${system}.plover.with-plugins (
+          ps: with ps; [
+            plover_uinput
+          ]
+        );
         packages.default = self.packages.${system}.plover;
         packages.plover = let
           pyqt5 = pkgs.python3Packages.pyqt5.override {withMultimedia = true;};
