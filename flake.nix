@@ -6,7 +6,7 @@
     flake = false;
   };
   inputs.plover = {
-    url = "github:openstenoproject/plover";
+    url = "github:LilleAila/plover/linux-uinput";
     flake = false;
   };
   inputs.rtf-tokenize = {
