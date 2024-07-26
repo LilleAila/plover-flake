@@ -37,15 +37,16 @@
     "plover": {
       "flake": false,
       "locked": {
-        "lastModified": 1711643817,
-        "narHash": "sha256-yNcqk7cgC3NKciguUYf4K/Qy/DPm463uXMuFYQnSPDM=",
-        "owner": "openstenoproject",
+        "lastModified": 1720882063,
+        "narHash": "sha256-zp+cz2MoQsHkUTtPX0XsPD/eUoqPhiaIeybhVNcMdbM=",
+        "owner": "LilleAila",
         "repo": "plover",
-        "rev": "9b5a357f1fb57cb0a9a8596ae12cd1e84fcff6c4",
+        "rev": "77640a51b18f77a47af48a08410a40464a1441b3",
         "type": "github"
       },
       "original": {
-        "owner": "openstenoproject",
+        "owner": "LilleAila",
+        "ref": "linux-uinput",
         "repo": "plover",
         "type": "github"
       }
@@ -123,7 +124,8 @@
         "plover-stroke": "plover-stroke",
         "plover2cat": "plover2cat",
         "plover_plugins_registry": "plover_plugins_registry",
-        "rtf-tokenize": "rtf-tokenize"
+        "rtf-tokenize": "rtf-tokenize",
+        "xkbcommon": "xkbcommon"
       }
     },
     "rtf-tokenize": {
@@ -154,6 +156,23 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "xkbcommon": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1720215817,
+        "narHash": "sha256-+jCzUnZWz2/jzzMR50cpR7gfk0XXL5ioK7kK7b2dLmU=",
+        "owner": "sde1000",
+        "repo": "python-xkbcommon",
+        "rev": "870f6f31b833d3526fd256b96832d9375647ef34",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sde1000",
+        "ref": "v1.0.1",
+        "repo": "python-xkbcommon",
         "type": "github"
       }
     }

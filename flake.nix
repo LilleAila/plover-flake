@@ -6,7 +6,7 @@
     flake = false;
   };
   inputs.plover = {
-    url = "github:openstenoproject/plover";
+    url = "github:LilleAila/plover/linux-uinput";
     flake = false;
   };
   inputs.rtf-tokenize = {
@@ -15,6 +15,11 @@
   };
   inputs.plover-stroke = {
     url = "github:openstenoproject/plover_stroke";
+    flake = false;
+  };
+  inputs.xkbcommon = {
+    # The project readme recommends version < 1.1 for most users
+    url = "github:sde1000/python-xkbcommon/v1.0.1";
     flake = false;
   };
   inputs.plover-machine-hid = {

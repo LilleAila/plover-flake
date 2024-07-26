@@ -11,6 +11,8 @@
   setuptools,
   wcwidth,
   xlib,
+  xkbcommon,
+  evdev,
   sources,
 }: let
   plover-stroke = buildPythonPackage rec {
@@ -22,6 +24,10 @@
     pname = "rtf_tokenize";
     version = "master";
     src = sources.rtf-tokenize;
+  };
+  xkbcommon' = xkbcommon.overrideAttrs {
+    version = "v1.0.1";
+    src = sources.xkbcommon;
   };
 in
   qt5.mkDerivationWith buildPythonPackage rec {
@@ -38,6 +44,8 @@ in
       wcwidth
       setuptools
       certifi
+      xkbcommon'
+      evdev
       #hid
       plover-stroke
       rtf-tokenize
