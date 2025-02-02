@@ -6,6 +6,18 @@
     "sha256": "ff3666480c0fbce0706aa283d13cc66167f11d04b9c3a1e1ca1e5642846a03b8"
   },
   {
+    "name": "plover2cat",
+    "filename": "plover2cat-3.1.0a0.tar.gz",
+    "version": "3.1.0a0",
+    "sha256": "d5d7cd65ae5ee1d7b8d7c9c60cc9147bcea0fb426f1e0a066344f43751d84e1d"
+  },
+  {
+    "name": "plover-1password",
+    "filename": "plover_1password-0.4.2.tar.gz",
+    "version": "0.4.2",
+    "sha256": "5f69ade204e9a7ddd72f466843186c73da57fd5b3a4ec3eb8b81c7810b794ef8"
+  },
+  {
     "name": "plover-auto-identifier",
     "filename": "plover_auto_identifier-0.1.2.tar.gz",
     "version": "0.1.2",
@@ -84,6 +96,12 @@
     "sha256": "8e44791749428f4296a2cc6b9ea8ee178756580e761d2d747d6afc8b0f3f96d9"
   },
   {
+    "name": "plover-cycle-translations",
+    "filename": "plover_cycle_translations-0.5.4.tar.gz",
+    "version": "0.5.4",
+    "sha256": "1e83b0c70037bfa95118ce91684f4799af0880f5378269cccee51f24edcbfc95"
+  },
+  {
     "name": "plover-debugging-console",
     "filename": "plover-debugging-console-0.2.5.tar.gz",
     "version": "0.2.5",
@@ -150,6 +168,12 @@
     "sha256": "60e6b8a2171ff5989f2bd71710500d141a5b94fbb8c19acf3dff0da09dc75007"
   },
   {
+    "name": "plover-french-extended-stenotype",
+    "filename": "plover_french_extended_stenotype-0.1.31.tar.gz",
+    "version": "0.1.31",
+    "sha256": "1e25ff1fdde10832b7d09442e900d4cf4bcf89513a50fa69b363418710cb831c"
+  },
+  {
     "name": "plover-german-syllatype",
     "filename": "plover-german-syllatype-1.3.1.tar.gz",
     "version": "1.3.1",
@@ -190,6 +214,12 @@
     "filename": "plover_last_translation-0.0.2.tar.gz",
     "version": "0.0.2",
     "sha256": "9668236eec1da99f1e794e26fddd5a905c308f90a696211a2e65c4280b9b8dd9"
+  },
+  {
+    "name": "plover-listening-lookup",
+    "filename": "plover_listening_lookup-1.0.2.tar.gz",
+    "version": "1.0.2",
+    "sha256": "f221f21098fee595d6360bccf559dc06e924a1aca643d939b48a0ef22dd6fbca"
   },
   {
     "name": "plover-local-env-var",
@@ -312,10 +342,16 @@
     "sha256": "0c65e0ec29143be8fbcc26f76b604cc50265471f3a674aadb177a8b8158d13c4"
   },
   {
+    "name": "plover-platform-specific-translation",
+    "filename": "plover_platform_specific_translation-0.3.0.tar.gz",
+    "version": "0.3.0",
+    "sha256": "975dc5a605c184c8e85419c52e0dfac589e29c2c3149cc0d5108af80bf47f5c1"
+  },
+  {
     "name": "plover-plugins-manager",
-    "filename": "plover_plugins_manager-0.7.1.tar.gz",
-    "version": "0.7.1",
-    "sha256": "fd18966c6c4fb66fb49a10e2d2178455bea204abb2066e883aadb2ae3d7b9fdb"
+    "filename": "plover_plugins_manager-0.7.2.tar.gz",
+    "version": "0.7.2",
+    "sha256": "47283f6f33504d1a2b1e67099d394d85946cc1729d2b0b9048e562117e0e707b"
   },
   {
     "name": "plover-portuguese",
@@ -420,6 +456,12 @@
     "sha256": "4520dcbccbd9540ba963025893bc1b1c123109e8de1de4c2ac89715a38e7e28f"
   },
   {
+    "name": "plover-sound",
+    "filename": "plover-sound-0.0.4.tar.gz",
+    "version": "0.0.4",
+    "sha256": "6559f9e1e9e60bca2ec4c4d11de355b9d1d2654a54b0308ca5411042e9d58d2e"
+  },
+  {
     "name": "plover-spanish-mqd",
     "filename": "plover_spanish_mqd-2.1.7.tar.gz",
     "version": "2.1.7",
@@ -444,10 +486,16 @@
     "sha256": "61dc4d853c2f127d426e1cc3a893ffd9884a26d249ccb4bdd137998168fad635"
   },
   {
+    "name": "plover-steno-engine-hooks-logger",
+    "filename": "plover_steno_engine_hooks_logger-0.3.6.tar.gz",
+    "version": "0.3.6",
+    "sha256": "49410d71e8f746353c6ea5709a0af5d29e54cb5a346dfa8e5a6a8e71ace7f08f"
+  },
+  {
     "name": "plover-stenobee",
-    "filename": "plover_stenobee-0.8.15.tar.gz",
-    "version": "0.8.15",
-    "sha256": "4d5328c3e414d3c847e7fadf245807a010c4de89d84fa31b7e16eb245728a1d7"
+    "filename": "plover_stenobee-0.8.16.tar.gz",
+    "version": "0.8.16",
+    "sha256": "897503ff5e9ccac80d82361e25c9345f4624f50be946378a8c0fd1663aa31d8f"
   },
   {
     "name": "plover-stenograph",
@@ -534,6 +582,12 @@
     "sha256": "9ad45d1b2a0f9bb59d8c51d8ab9a5474ebcf74b9d61e039c837e916c8321a706"
   },
   {
+    "name": "plover-websocket-server",
+    "filename": "plover_websocket_server-0.1.7.tar.gz",
+    "version": "0.1.7",
+    "sha256": "7644ff48bde9a3425a405410337deaa769167011a77ef54a709cf56ada986316"
+  },
+  {
     "name": "plover-windows-brightness",
     "filename": "plover_windows_brightness-0.0.2.tar.gz",
     "version": "0.0.2",
@@ -544,6 +598,12 @@
     "filename": "plover-word-tray-0.0.10.tar.gz",
     "version": "0.0.10",
     "sha256": "a2e90c453775fb91de89f0c61309ff0ace2073fbb1a354c7ae96e8e5f2636dc6"
+  },
+  {
+    "name": "plover-wtype-output",
+    "filename": "plover-wtype-output-0.0.1.tar.gz",
+    "version": "0.0.1",
+    "sha256": "f2183e34f8d5b5f78bdbe96a8d1930701600af8dd4e6e8801e6cfda7bd9b54b3"
   },
   {
     "name": "plover-wpm-meter",
